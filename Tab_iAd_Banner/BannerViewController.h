@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface BannerViewController : UIViewController
+- (IBAction)Btn_Share:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UIImageView *Img1;
+@property (strong, nonatomic) IBOutlet UIImageView *Img2;
+@property (strong, nonatomic) IBOutlet UIImageView *Img3;
 
 @end
