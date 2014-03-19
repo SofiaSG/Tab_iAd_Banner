@@ -14,14 +14,16 @@
 		79C6F03918D2A7E100F1E1A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F03818D2A7E100F1E1A1 /* main.m */; };
 		79C6F03D18D2A7E100F1E1A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F03C18D2A7E100F1E1A1 /* AppDelegate.m */; };
 		79C6F04018D2A7E200F1E1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C6F03E18D2A7E200F1E1A1 /* Main.storyboard */; };
-		79C6F04318D2A7E200F1E1A1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F04218D2A7E200F1E1A1 /* FirstViewController.m */; };
-		79C6F04618D2A7E200F1E1A1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F04518D2A7E200F1E1A1 /* SecondViewController.m */; };
+		79C6F04318D2A7E200F1E1A1 /* iAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F04218D2A7E200F1E1A1 /* iAdViewController.m */; };
+		79C6F04618D2A7E200F1E1A1 /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F04518D2A7E200F1E1A1 /* BannerViewController.m */; };
 		79C6F04818D2A7E200F1E1A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C6F04718D2A7E200F1E1A1 /* Images.xcassets */; };
 		79C6F04F18D2A7E200F1E1A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C6F04E18D2A7E200F1E1A1 /* XCTest.framework */; };
 		79C6F05018D2A7E200F1E1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C6F02C18D2A7E100F1E1A1 /* Foundation.framework */; };
 		79C6F05118D2A7E200F1E1A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C6F03018D2A7E100F1E1A1 /* UIKit.framework */; };
 		79C6F05918D2A7E200F1E1A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79C6F05718D2A7E200F1E1A1 /* InfoPlist.strings */; };
 		79C6F05B18D2A7E200F1E1A1 /* Tab_iAd_BannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F05A18D2A7E200F1E1A1 /* Tab_iAd_BannerTests.m */; };
+		79C6F06718D2A92A00F1E1A1 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C6F06618D2A92A00F1E1A1 /* iAd.framework */; };
+		79C8601818D8D8520021EA67 /* UAG.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C8601718D8D8520021EA67 /* UAG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +48,18 @@
 		79C6F03B18D2A7E100F1E1A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79C6F03C18D2A7E100F1E1A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79C6F03F18D2A7E200F1E1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		79C6F04118D2A7E200F1E1A1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		79C6F04218D2A7E200F1E1A1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		79C6F04418D2A7E200F1E1A1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		79C6F04518D2A7E200F1E1A1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		79C6F04118D2A7E200F1E1A1 /* iAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iAdViewController.h; sourceTree = "<group>"; };
+		79C6F04218D2A7E200F1E1A1 /* iAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAdViewController.m; sourceTree = "<group>"; };
+		79C6F04418D2A7E200F1E1A1 /* BannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		79C6F04518D2A7E200F1E1A1 /* BannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
 		79C6F04718D2A7E200F1E1A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79C6F04D18D2A7E200F1E1A1 /* Tab_iAd_BannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tab_iAd_BannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C6F04E18D2A7E200F1E1A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		79C6F05618D2A7E200F1E1A1 /* Tab_iAd_BannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tab_iAd_BannerTests-Info.plist"; sourceTree = "<group>"; };
 		79C6F05818D2A7E200F1E1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79C6F05A18D2A7E200F1E1A1 /* Tab_iAd_BannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tab_iAd_BannerTests.m; sourceTree = "<group>"; };
+		79C6F06618D2A92A00F1E1A1 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		79C8601718D8D8520021EA67 /* UAG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UAG.png; path = ../../UAG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C6F06718D2A92A00F1E1A1 /* iAd.framework in Frameworks */,
 				79C6F02F18D2A7E100F1E1A1 /* CoreGraphics.framework in Frameworks */,
 				79C6F03118D2A7E100F1E1A1 /* UIKit.framework in Frameworks */,
 				79C6F02D18D2A7E100F1E1A1 /* Foundation.framework in Frameworks */,
@@ -104,6 +109,7 @@
 		79C6F02B18D2A7E100F1E1A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79C6F06618D2A92A00F1E1A1 /* iAd.framework */,
 				79C6F02C18D2A7E100F1E1A1 /* Foundation.framework */,
 				79C6F02E18D2A7E100F1E1A1 /* CoreGraphics.framework */,
 				79C6F03018D2A7E100F1E1A1 /* UIKit.framework */,
@@ -115,13 +121,12 @@
 		79C6F03218D2A7E100F1E1A1 /* Tab_iAd_Banner */ = {
 			isa = PBXGroup;
 			children = (
+				79C8601718D8D8520021EA67 /* UAG.png */,
+				79C6F06418D2A87D00F1E1A1 /* iAd */,
+				79C6F06518D2A89800F1E1A1 /* Banner */,
 				79C6F03B18D2A7E100F1E1A1 /* AppDelegate.h */,
 				79C6F03C18D2A7E100F1E1A1 /* AppDelegate.m */,
 				79C6F03E18D2A7E200F1E1A1 /* Main.storyboard */,
-				79C6F04118D2A7E200F1E1A1 /* FirstViewController.h */,
-				79C6F04218D2A7E200F1E1A1 /* FirstViewController.m */,
-				79C6F04418D2A7E200F1E1A1 /* SecondViewController.h */,
-				79C6F04518D2A7E200F1E1A1 /* SecondViewController.m */,
 				79C6F04718D2A7E200F1E1A1 /* Images.xcassets */,
 				79C6F03318D2A7E100F1E1A1 /* Supporting Files */,
 			);
@@ -155,6 +160,24 @@
 				79C6F05718D2A7E200F1E1A1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79C6F06418D2A87D00F1E1A1 /* iAd */ = {
+			isa = PBXGroup;
+			children = (
+				79C6F04118D2A7E200F1E1A1 /* iAdViewController.h */,
+				79C6F04218D2A7E200F1E1A1 /* iAdViewController.m */,
+			);
+			name = iAd;
+			sourceTree = "<group>";
+		};
+		79C6F06518D2A89800F1E1A1 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				79C6F04418D2A7E200F1E1A1 /* BannerViewController.h */,
+				79C6F04518D2A7E200F1E1A1 /* BannerViewController.m */,
+			);
+			name = Banner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +259,7 @@
 				79C6F04818D2A7E200F1E1A1 /* Images.xcassets in Resources */,
 				79C6F03718D2A7E100F1E1A1 /* InfoPlist.strings in Resources */,
 				79C6F04018D2A7E200F1E1A1 /* Main.storyboard in Resources */,
+				79C8601818D8D8520021EA67 /* UAG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C6F04618D2A7E200F1E1A1 /* SecondViewController.m in Sources */,
+				79C6F04618D2A7E200F1E1A1 /* BannerViewController.m in Sources */,
 				79C6F03D18D2A7E100F1E1A1 /* AppDelegate.m in Sources */,
-				79C6F04318D2A7E200F1E1A1 /* FirstViewController.m in Sources */,
+				79C6F04318D2A7E200F1E1A1 /* iAdViewController.m in Sources */,
 				79C6F03918D2A7E100F1E1A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +490,7 @@
 				79C6F06018D2A7E200F1E1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79C6F06118D2A7E200F1E1A1 /* Build configuration list for PBXNativeTarget "Tab_iAd_BannerTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +499,7 @@
 				79C6F06318D2A7E200F1E1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

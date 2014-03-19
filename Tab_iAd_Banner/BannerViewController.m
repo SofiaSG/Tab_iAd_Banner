@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Sofia Garcia Ramos. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "BannerViewController.h"
 
-@interface SecondViewController ()
+@interface BannerViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation BannerViewController
 
 - (void)viewDidLoad
 {
